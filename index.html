@@ -2,17 +2,122 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Undangan Pernikahan</title>
+  <title>Undangan Pernikahan Surya & Ella</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body style="text-align:center; font-family:Arial; padding:40px;">
-  <h1>Undangan Pernikahan</h1>
-  <p>Surya & Ella</p>
-  <p>15 September 2017</p>
 
-  <a href="https://wa.me/628xxxxxxxxx"
-     style="display:inline-block; margin-top:20px; padding:12px 20px; background:#8b6f47; color:white; text-decoration:none; border-radius:6px;">
-     Konfirmasi Kehadiran
-  </a>
+  <!-- FONT ELEGAN -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:#f7f4ef;
+      color:#4a3b2a;
+    }
+    .container{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:20px;
+    }
+    .card{
+      background:#ffffff;
+      max-width:420px;
+      width:100%;
+      padding:40px 28px;
+      text-align:center;
+      border-radius:20px;
+      box-shadow:0 15px 40px rgba(0,0,0,0.08);
+    }
+    h1{
+      font-family:'Playfair Display',serif;
+      font-size:20px;
+      letter-spacing:2px;
+      margin-bottom:10px;
+    }
+    .nama{
+      font-family:'Great Vibes',cursive;
+      font-size:42px;
+      margin:20px 0;
+      color:#8b6f47;
+    }
+    .kata{
+      font-size:14px;
+      line-height:1.8;
+      margin:20px 0;
+    }
+    .tanggal{
+      font-size:16px;
+      margin:25px 0;
+      font-weight:500;
+    }
+    .btn{
+      display:inline-block;
+      margin:10px 0;
+      padding:14px 28px;
+      background:#8b6f47;
+      color:#fff;
+      text-decoration:none;
+      border-radius:30px;
+      font-size:14px;
+    }
+    .map{
+      margin-top:25px;
+    }
+    iframe{
+      width:100%;
+      height:220px;
+      border:0;
+      border-radius:14px;
+    }
+    audio{
+      display:none;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- MUSIK OTOMATIS -->
+<audio autoplay loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/10/30/audio_4c87b41db7.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <div class="card">
+    <h1>UNDANGAN PERNIKAHAN</h1>
+
+    <!-- NAMA PENGANTIN -->
+    <div class="nama">Surya &amp; Ella</div>
+
+    <!-- KATA-KATA ROMANTIS -->
+    <div class="kata">
+      “Dan di antara tanda-tanda kebesaran-Nya,<br>
+      Dia menciptakan pasangan hidup untukmu,<br>
+      agar kamu merasa tenteram di sisinya,<br>
+      serta dijadikan-Nya rasa cinta dan kasih sayang.”
+    </div>
+
+    <!-- TANGGAL -->
+    <div class="tanggal">
+      15 September 2017
+    </div>
+
+    <!-- TOMBOL RSVP -->
+    <a class="btn" href="https://wa.me/628xxxxxxxxx">
+      Konfirmasi Kehadiran
+    </a>
+
+    <!-- GOOGLE MAPS -->
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps?q=jakarta&output=embed">
+      </iframe>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
